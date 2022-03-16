@@ -5,6 +5,12 @@
       <map>
         <entry key="..\:/Projects/Parstagram/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
         <entry key="..\:/Projects/Parstagram/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/Parstagram/app/src/main/res/layout/fragment_compose.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/Parstagram/app/src/main/res/layout/fragment_feed.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/Parstagram/app/src/main/res/layout/item_post.xml" value="0.33" />
+        <entry key="..\:/Projects/Parstagram/app/src/main/res/menu/menu_bottom_navigation.xml" value="0.2015625" />
+        <entry key="..\:/Projects/Parstagram/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.22135416666666666" />
+        <entry key="..\:/Projects/Parstagram/app/src/main/res/mipmap-anydpi-v26/ic_launcher_new.xml" value="0.22135416666666666" />
         <entry key="..\:/Projects/Parstagram/app/src/main/res/xml/fileprovider.xml" value="0.20520833333333333" />
       </map>
     </option>

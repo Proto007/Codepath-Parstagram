@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity">
+    tools:context=".LoginActivity"
+    android:background="@color/black">
 
     <Button
         android:id="@+id/login_button"
@@ -13,6 +14,10 @@
         android:layout_margin="10dp"
         android:layout_marginTop="8dp"
         android:text="Login"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:backgroundTint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/et_Password" />
@@ -22,13 +27,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
+        android:layout_marginTop="120dp"
         android:ems="13"
         android:hint="Username"
         android:inputType="textEmailAddress"
         android:text=""
+        android:textColor="@color/white"
+        android:textColorHint="#AAAAAA"
+        android:backgroundTint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/tvLogo"
+        android:textStyle="italic" />
 
     <EditText
         android:id="@+id/et_Password"
@@ -38,8 +48,12 @@
         android:layout_marginTop="8dp"
         android:ems="13"
         android:hint="Password"
+        android:textColor="@color/white"
+        android:textColorHint="#AAAAAA"
         android:inputType="textPassword"
         android:text=""
+        android:textStyle="italic"
+        android:backgroundTint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/et_UserName" />
@@ -49,8 +63,27 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
+        android:layout_marginTop="140dp"
         android:text="Register"
+        android:fontFamily="cursive"
+        android:backgroundTint="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/login_button" />
+
+    <TextView
+        android:id="@+id/tvLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Parsetagram"
+        android:fontFamily="cursive"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textStyle="bold"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

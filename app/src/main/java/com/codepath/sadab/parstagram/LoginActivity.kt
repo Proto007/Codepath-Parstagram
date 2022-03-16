@@ -1,6 +1,8 @@
 package com.codepath.sadab.parstagram
 
 import android.content.Intent
+import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -12,6 +14,7 @@ import com.parse.ParseUser
 class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        supportActionBar!!.setBackgroundDrawable(ColorDrawable(Color.parseColor("#000000")))
         setContentView(R.layout.activity_login)
 
         if(ParseUser.getCurrentUser()!=null){
